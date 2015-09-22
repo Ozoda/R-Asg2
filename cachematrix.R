@@ -22,4 +22,5 @@ cacheSolve <- function(x, ...) {
   m <- solve(data, ...)  ## calculate the inverse 
   x$setinverse(m) ## cache the inverse  
   m ## print the result of the inverse
+  
 }
