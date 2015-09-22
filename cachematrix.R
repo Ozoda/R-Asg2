@@ -1,6 +1,6 @@
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL  ## set default value 
-  set <- function(y) {  ## initial function for caching 
+  set <- function(y) {  ## initial function for caching  
     x <<- y
     m <<- NULL
   }
